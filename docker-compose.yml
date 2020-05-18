@@ -3,7 +3,7 @@ services:
   jenkins:
     image: jenkins/jenkins:lts
     container_name: fylder-jenkins
-    restart: always
+    # restart: always
     ports:
       - "8201:8080"
       - "50000:50000"
